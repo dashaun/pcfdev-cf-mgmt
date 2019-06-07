@@ -2,7 +2,8 @@ org: cfdev-org
 space: test
 space-developer:
   ldap_users: []
-  users: []
+  users:
+  - user
   saml_users: []
   ldap_groups: []
 space-manager:
