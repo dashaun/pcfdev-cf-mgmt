@@ -1,0 +1,15 @@
+enabled: false
+ldapHost: ""
+ldapPort: 0
+use_tls: false
+bindDN: ""
+userSearchBase: ""
+userNameAttribute: ""
+userMailAttribute: ""
+userObjectClass: ""
+groupSearchBase: ""
+groupAttribute: ""
+groupObjectClass: ""
+origin: ldap
+insecure_skip_verify: ""
+ca_cert: ""

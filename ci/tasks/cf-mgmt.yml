@@ -1,0 +1,23 @@
+---
+platform: linux
+
+image_resource:
+  type: docker-image
+  source: {repository: pivotalservices/cf-mgmt, tag: "1.0.28"}
+
+inputs:
+  - name: config-repo
+
+params:
+  SYSTEM_DOMAIN:
+  USER_ID:
+  PASSWORD:
+  CONFIG_DIR:
+  CLIENT_SECRET:
+  LDAP_USER:
+  LDAP_PASSWORD:
+  LDAP_SERVER:
+  LOG_LEVEL:
+  CF_MGMT_COMMAND:
+run:
+  path: config-repo/ci/tasks/cf-mgmt.sh
