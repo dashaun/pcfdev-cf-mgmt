@@ -1,0 +1,4 @@
+org: cfdev-org
+spaces:
+- test
+enable-delete-spaces: true

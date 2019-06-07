@@ -1,0 +1,26 @@
+org: cfdev-org
+space: test
+space-developer:
+  ldap_users: []
+  users: []
+  saml_users: []
+  ldap_groups: []
+space-manager:
+  ldap_users: []
+  users: []
+  saml_users: []
+  ldap_groups: []
+space-auditor:
+  ldap_users: []
+  users: []
+  saml_users: []
+  ldap_groups: []
+allow-ssh: false
+enable-space-quota: false
+enable-security-group: false
+enable-unassign-security-group: false
+enable-remove-users: true
+isolation_segment: ""
+named-security-groups: []
+named_quota: ""
+metadata: null
